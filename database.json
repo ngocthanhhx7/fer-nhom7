@@ -1,0 +1,252 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "user",
+      "email": "user@gmail.com",
+      "password": "123123",
+      "createdAt": "2023-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "1742672351092",
+      "name": "test",
+      "email": "test@gmail.com",
+      "password": "1231233",
+      "createdAt": "2025-03-22T19:39:11.092Z"
+    },
+    {
+      "id": "1742781619374",
+      "name": "Lê Mạnh Nam",
+      "email": "pemanhnam2k4@gmail.com",
+      "password": "123456",
+      "createdAt": "2025-03-24T02:00:19.374Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Wireless Bluetooth Headphones",
+      "description": "High-quality wireless headphones with noise cancellation and long battery life.",
+      "price": 79.99,
+      "category": "Electronics",
+      "image": "https://img.freepik.com/free-photo/earphones-with-case-surrounded-by-nature-scene_23-2150165594.jpg?t=st=1742670928~exp=1742674528~hmac=2d4b1fddd1b158ec0dc9c83f245fbecebebd307dccbe493adf7b987ca958d101&w=1380",
+      "featured": true,
+      "stock": 15,
+      "date": "2023-12-01"
+    },
+    {
+      "id": "2",
+      "name": "Smartphone Stand and Holder",
+      "description": "Adjustable smartphone stand compatible with all phone models.",
+      "price": 19.99,
+      "category": "Accessories",
+      "image": "https://img.freepik.com/free-photo/woman-using-smartphone-with-pop-socket_52683-107793.jpg?t=st=1742670955~exp=1742674555~hmac=5c49d61f300058a4f72105b821021ce2f482037ad5194436f2d12e85407b58a5&w=900",
+      "featured": true,
+      "stock": 30,
+      "date": "2023-11-15"
+    },
+    {
+      "id": "3",
+      "name": "Laptop Backpack",
+      "description": "Water-resistant backpack with padded laptop compartment and multiple pockets.",
+      "price": 49.99,
+      "category": "Accessories",
+      "image": "https://img.freepik.com/free-photo/blue-backpack-with-textbooks_23-2148207618.jpg?t=st=1742670982~exp=1742674582~hmac=b6ab7e5602ce9961dbcdf29bbcf0c1b943592df3ce795766ed74d4ae1227a098&w=2000",
+      "featured": false,
+      "stock": 20,
+      "date": "2023-10-20"
+    },
+    {
+      "id": "4",
+      "name": "Wireless Charging Pad",
+      "description": "Fast wireless charging pad compatible with all Qi-enabled devices.",
+      "price": 29.99,
+      "category": "Electronics",
+      "image": "https://img.freepik.com/free-photo/flatlay-smartphone-accessories_53876-33530.jpg?t=st=1742671001~exp=1742674601~hmac=5eac3c158fa3ae6c58259b80ac4707880eb48c3d14484126c2b50883b2e21276&w=996",
+      "featured": false,
+      "stock": 25,
+      "date": "2023-09-10"
+    },
+    {
+      "id": "5",
+      "name": "Smart Watch",
+      "description": "Fitness tracker with heart rate monitor, sleep tracking, and smartphone notifications.",
+      "price": 129.99,
+      "category": "Electronics",
+      "image": "https://img.freepik.com/free-vector/smart-watch-realistic-image-black_1284-11873.jpg?t=st=1742671021~exp=1742674621~hmac=1ee8b8f2022cf59929a119b76aca6ad23a8877605169422cde45e3104994080d&w=1380",
+      "featured": true,
+      "stock": 10,
+      "date": "2023-12-05"
+    },
+    {
+      "id": "6",
+      "name": "Portable Bluetooth Speaker",
+      "description": "Waterproof portable speaker with 20-hour battery life and deep bass.",
+      "price": 59.99,
+      "category": "Electronics",
+      "image": "https://img.freepik.com/free-photo/still-life-tech-device_23-2150722621.jpg?t=st=1742671042~exp=1742674642~hmac=dd9304faabb768b46fde91bf3cd66b92a67581c628f9eaf847655727c0dd77be&w=826",
+      "featured": false,
+      "stock": 18,
+      "date": "2023-11-01"
+    },
+    {
+      "id": "7",
+      "name": "Ergonomic Office Chair",
+      "description": "Comfortable office chair with lumbar support and adjustable height.",
+      "price": 199.99,
+      "category": "Furniture",
+      "image": "https://img.freepik.com/free-photo/still-life-office-chair-indoors_23-2151108699.jpg?t=st=1742671059~exp=1742674659~hmac=452d0f331c4dfcc0d782627bc4826b2be2cb384f8b295a5bb7cb2ee4a0ea10f0&w=826",
+      "featured": false,
+      "stock": 8,
+      "date": "2023-10-15"
+    },
+    {
+      "id": "8",
+      "name": "Mechanical Keyboard",
+      "description": "RGB mechanical keyboard with customizable keys and tactile feedback.",
+      "price": 89.99,
+      "category": "Electronics",
+      "image": "https://img.freepik.com/free-vector/technology-white_24877-49405.jpg?t=st=1742671082~exp=1742674682~hmac=448c2781aaccedbff172aa3a3e1d881221f4eb0cac981ccf1b8c503207b4c83f&w=1800",
+      "featured": false,
+      "stock": 12,
+      "date": "2023-09-20"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ORD-1742672157598",
+      "userId": "1",
+      "items": [
+        {
+          "id": "1",
+          "name": "Wireless Bluetooth Headphones",
+          "description": "High-quality wireless headphones with noise cancellation and long battery life.",
+          "price": 79.99,
+          "category": "Electronics",
+          "image": "https://img.freepik.com/free-photo/earphones-with-case-surrounded-by-nature-scene_23-2150165594.jpg?t=st=1742670928~exp=1742674528~hmac=2d4b1fddd1b158ec0dc9c83f245fbecebebd307dccbe493adf7b987ca958d101&w=1380",
+          "featured": true,
+          "stock": 15,
+          "date": "2023-12-01",
+          "quantity": 1
+        }
+      ],
+      "customer": {
+        "firstName": "user",
+        "lastName": "Test",
+        "email": "user@gmail.com",
+        "address": "Vincom",
+        "city": "Viet Nam",
+        "state": "Thu Duc",
+        "zipCode": "12398889188"
+      },
+      "payment": {
+        "cardName": "Tesst",
+        "cardNumber": "******1233",
+        "expDate": "11/11"
+      },
+      "subtotal": 79.99,
+      "tax": 7.999,
+      "total": 87.98899999999999,
+      "status": "pending",
+      "date": "2025-03-22T19:35:57.599Z"
+    },
+    {
+      "id": "ORD-1742781911863",
+      "userId": "1742781619374",
+      "items": [
+        {
+          "id": "1",
+          "name": "Wireless Bluetooth Headphones",
+          "description": "High-quality wireless headphones with noise cancellation and long battery life.",
+          "price": 79.99,
+          "category": "Electronics",
+          "image": "https://img.freepik.com/free-photo/earphones-with-case-surrounded-by-nature-scene_23-2150165594.jpg?t=st=1742670928~exp=1742674528~hmac=2d4b1fddd1b158ec0dc9c83f245fbecebebd307dccbe493adf7b987ca958d101&w=1380",
+          "featured": true,
+          "stock": 15,
+          "date": "2023-12-01",
+          "quantity": 1
+        },
+        {
+          "id": "2",
+          "name": "Smartphone Stand and Holder",
+          "description": "Adjustable smartphone stand compatible with all phone models.",
+          "price": 19.99,
+          "category": "Accessories",
+          "image": "https://img.freepik.com/free-photo/woman-using-smartphone-with-pop-socket_52683-107793.jpg?t=st=1742670955~exp=1742674555~hmac=5c49d61f300058a4f72105b821021ce2f482037ad5194436f2d12e85407b58a5&w=900",
+          "featured": true,
+          "stock": 30,
+          "date": "2023-11-15",
+          "quantity": 1
+        },
+        {
+          "id": "5",
+          "name": "Smart Watch",
+          "description": "Fitness tracker with heart rate monitor, sleep tracking, and smartphone notifications.",
+          "price": 129.99,
+          "category": "Electronics",
+          "image": "https://img.freepik.com/free-vector/smart-watch-realistic-image-black_1284-11873.jpg?t=st=1742671021~exp=1742674621~hmac=1ee8b8f2022cf59929a119b76aca6ad23a8877605169422cde45e3104994080d&w=1380",
+          "featured": true,
+          "stock": 10,
+          "date": "2023-12-05",
+          "quantity": 1
+        }
+      ],
+      "customer": {
+        "firstName": "Lê",
+        "lastName": "Mạnh Nam",
+        "email": "pemanhnam2k4@gmail.com",
+        "address": "Khu Công Nghệ Cao Hòa Lạc",
+        "city": "Hà Nội",
+        "state": "Thạch Thất",
+        "zipCode": "100000"
+      },
+      "payment": {
+        "cardName": "Lê Mạnh Nam",
+        "cardNumber": "******6789",
+        "expDate": "15/12"
+      },
+      "subtotal": 229.97,
+      "tax": 22.997,
+      "total": 252.96699999999998,
+      "status": "pending",
+      "date": "2025-03-24T02:05:11.863Z"
+    },
+    {
+      "id": "ORD-1742950023432",
+      "userId": "1742781619374",
+      "items": [
+        {
+          "id": "2",
+          "name": "Smartphone Stand and Holder",
+          "description": "Adjustable smartphone stand compatible with all phone models.",
+          "price": 19.99,
+          "category": "Accessories",
+          "image": "https://img.freepik.com/free-photo/woman-using-smartphone-with-pop-socket_52683-107793.jpg?t=st=1742670955~exp=1742674555~hmac=5c49d61f300058a4f72105b821021ce2f482037ad5194436f2d12e85407b58a5&w=900",
+          "featured": true,
+          "stock": 30,
+          "date": "2023-11-15",
+          "quantity": 1
+        }
+      ],
+      "customer": {
+        "firstName": "Lê",
+        "lastName": "Mạnh Nam",
+        "email": "pemanhnam2k4@gmail.com",
+        "address": "Khu Công Nghệ Cao Hòa Lạc",
+        "city": "Hà Nội",
+        "state": "Thạch Thất",
+        "zipCode": "100000"
+      },
+      "payment": {
+        "cardName": "Lê Mạnh Nam",
+        "cardNumber": "***4567",
+        "expDate": "15/12"
+      },
+      "subtotal": 19.99,
+      "tax": 1.9989999999999999,
+      "total": 21.988999999999997,
+      "status": "pending",
+      "date": "2025-03-26T00:47:03.432Z"
+    }
+  ]
+}
