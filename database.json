@@ -11,12 +11,12 @@
       "id": "1742672351092",
       "name": "test",
       "email": "test@gmail.com",
-      "password": "88888888",
+      "password": "123123",
       "createdAt": "2025-03-22T19:39:11.092Z"
     },
     {
       "id": "1742781619374",
-      "name": "Lê Mạnh Nam",
+      "name": "Nguyen Ngoc Thanh",
       "email": "pemanhnam2k4@gmail.com",
       "password": "123456",
       "createdAt": "2025-03-24T02:00:19.374Z"
@@ -24,15 +24,15 @@
   ],
   "products": [
     {
-      "id": "1",
       "name": "Wireless Bluetooth Headphones",
       "description": "High-quality wireless headphones with noise cancellation and long battery life.",
       "price": 79.99,
       "category": "Electronics",
       "image": "https://img.freepik.com/free-photo/earphones-with-case-surrounded-by-nature-scene_23-2150165594.jpg?t=st=1742670928~exp=1742674528~hmac=2d4b1fddd1b158ec0dc9c83f245fbecebebd307dccbe493adf7b987ca958d101&w=1380",
-      "featured": true,
       "stock": 15,
-      "date": "2023-12-01"
+      "featured": true,
+      "date": "2025-07-01",
+      "id": "1"
     },
     {
       "id": "2",
@@ -46,15 +46,15 @@
       "date": "2023-11-15"
     },
     {
-      "id": "3",
       "name": "Laptop Backpack",
       "description": "Water-resistant backpack with padded laptop compartment and multiple pockets.",
       "price": 49.99,
       "category": "Accessories",
       "image": "https://img.freepik.com/free-photo/blue-backpack-with-textbooks_23-2148207618.jpg?t=st=1742670982~exp=1742674582~hmac=b6ab7e5602ce9961dbcdf29bbcf0c1b943592df3ce795766ed74d4ae1227a098&w=2000",
-      "featured": false,
       "stock": 20,
-      "date": "2023-10-20"
+      "featured": true,
+      "date": "2025-07-01",
+      "id": "3"
     },
     {
       "id": "4",
@@ -247,6 +247,80 @@
       "total": 21.988999999999997,
       "status": "pending",
       "date": "2025-03-26T00:47:03.432Z"
+    },
+    {
+      "id": "ORD-1751341962355",
+      "userId": "1742672351092",
+      "items": [
+        {
+          "id": "6",
+          "name": "Portable Bluetooth Speaker",
+          "description": "Waterproof portable speaker with 20-hour battery life and deep bass.",
+          "price": 59.99,
+          "category": "Electronics",
+          "image": "https://img.freepik.com/free-photo/still-life-tech-device_23-2150722621.jpg?t=st=1742671042~exp=1742674642~hmac=dd9304faabb768b46fde91bf3cd66b92a67581c628f9eaf847655727c0dd77be&w=826",
+          "featured": false,
+          "stock": 18,
+          "date": "2023-11-01",
+          "quantity": 1
+        }
+      ],
+      "customer": {
+        "firstName": "test",
+        "lastName": "Nam",
+        "email": "test@gmail.com",
+        "address": "Ha Noi",
+        "city": "Ha Noi",
+        "state": "Hoa Lac",
+        "zipCode": "10000"
+      },
+      "payment": {
+        "cardName": "NGUYEN NGOC THANH",
+        "cardNumber": "************8363",
+        "expDate": "0505"
+      },
+      "subtotal": 59.99,
+      "tax": 5.9990000000000006,
+      "total": 65.989,
+      "status": "pending",
+      "date": "2025-07-01T03:52:42.355Z"
+    },
+    {
+      "id": "ORD-1751342919696",
+      "userId": "1742672351092",
+      "items": [
+        {
+          "id": "1",
+          "name": "Wireless Bluetooth Headphones",
+          "description": "High-quality wireless headphones with noise cancellation and long battery life.",
+          "price": 79.99,
+          "category": "Electronics",
+          "image": "https://img.freepik.com/free-photo/earphones-with-case-surrounded-by-nature-scene_23-2150165594.jpg?t=st=1742670928~exp=1742674528~hmac=2d4b1fddd1b158ec0dc9c83f245fbecebebd307dccbe493adf7b987ca958d101&w=1380",
+          "featured": true,
+          "stock": 15,
+          "date": "2023-12-01",
+          "quantity": 1
+        }
+      ],
+      "customer": {
+        "firstName": "test",
+        "lastName": "Nam",
+        "email": "test@gmail.com",
+        "address": "Ha Noi",
+        "city": "Ha Noi",
+        "state": "Hoa Lac",
+        "zipCode": "10000"
+      },
+      "payment": {
+        "cardName": "NGUYEN NGOC THANH",
+        "cardNumber": "************8363",
+        "expDate": "0505"
+      },
+      "subtotal": 79.99,
+      "tax": 7.999,
+      "total": 87.98899999999999,
+      "status": "pending",
+      "date": "2025-07-01T04:08:39.696Z"
     }
   ]
 }

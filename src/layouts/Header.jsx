@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react"
 import { Container, Nav, Navbar, Badge, Dropdown } from "react-bootstrap"
 import { Link, useLocation, useNavigate } from "react-router-dom"
-import { ShoppingCart, User, LogOut, Settings } from "lucide-react"
+import { ShoppingCart, User, LogOut, Settings, Package, Users } from "lucide-react"
 
 function Header() {
   const [user, setUser] = useState(null)
@@ -83,6 +83,14 @@ function Header() {
                     {user.name}
                   </Dropdown.Toggle>
                   <Dropdown.Menu>
+                    <Dropdown.Item as={Link} to="/product-manager">
+                      <Package size={16} className="me-2" />
+                      Product Manager
+                    </Dropdown.Item>
+                    <Dropdown.Item as={Link} to="/account-manager">
+                      <Users size={16} className="me-2" />
+                      Account Manager
+                    </Dropdown.Item>
                     <Dropdown.Item as={Link} to="/change-password">
                       <Settings size={16} className="me-2" />
                       Change Password
