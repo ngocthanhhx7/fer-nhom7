@@ -1,9 +1,9 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import { Container, Nav, Navbar, Badge } from "react-bootstrap"
+import { Container, Nav, Navbar, Badge, Dropdown } from "react-bootstrap"
 import { Link, useLocation, useNavigate } from "react-router-dom"
-import { ShoppingCart, User, LogOut } from "lucide-react"
+import { ShoppingCart, User, LogOut, Settings } from "lucide-react"
 
 function Header() {
   const [user, setUser] = useState(null)
@@ -77,14 +77,23 @@ function Header() {
                     </Badge>
                   )}
                 </Nav.Link>
-                <Nav.Link as={Link} to="/profile">
-                  <User size={20} className="me-1" />
-                  {user.name}
-                </Nav.Link>
-                <Nav.Link onClick={handleLogout}>
-                  <LogOut size={20} className="me-1" />
-                  Logout
-                </Nav.Link>
+                <Dropdown align="end">
+                  <Dropdown.Toggle as={Nav.Link} className="d-flex align-items-center">
+                    <User size={20} className="me-1" />
+                    {user.name}
+                  </Dropdown.Toggle>
+                  <Dropdown.Menu>
+                    <Dropdown.Item as={Link} to="/change-password">
+                      <Settings size={16} className="me-2" />
+                      Change Password
+                    </Dropdown.Item>
+                    <Dropdown.Divider />
+                    <Dropdown.Item onClick={handleLogout}>
+                      <LogOut size={16} className="me-2" />
+                      Logout
+                    </Dropdown.Item>
+                  </Dropdown.Menu>
+                </Dropdown>
               </>
             ) : (
               <>

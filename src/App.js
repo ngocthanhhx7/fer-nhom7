@@ -15,6 +15,7 @@ import Checkout from "./pages/Checkout"
 import Footer from "./layouts/Footer"
 import ContactPage from "./pages/ContactPage"
 import FAQPage from "./pages/FAQsPage"
+import ChangePassword from "./pages/ChangePassword"
 axios.defaults.baseURL = "http://localhost:9999"
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
             <Route path="/checkout" element={<Checkout />} />
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/faqs" element={<FAQPage />} />
+            <Route path="/change-password" element={<ChangePassword />} />
             <Route path="*" element={<Navigate to="/" />} />
           </Routes>
         </main>
