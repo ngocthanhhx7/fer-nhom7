@@ -54,6 +54,7 @@ function Register() {
         ...userData,
         id: Date.now().toString(),
         createdAt: new Date().toISOString(),
+        role: "customer"
       })
 
       // Redirect to login page

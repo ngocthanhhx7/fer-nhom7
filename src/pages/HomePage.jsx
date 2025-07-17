@@ -275,7 +275,7 @@ function HomePage() {
             </Col>
             <Col md={6} className="text-center text-md-end">
               <img 
-                src="https://axiomq.com/wp-content/uploads/2020/06/Newsletter-Design-Trends-1.jpg/500x300" 
+                src="https://axiomq.com/wp-content/uploads/2020/06/Newsletter-Design-Trends-1.jpg" 
                 alt="Newsletter" 
                 className="img-fluid rounded shadow-sm" 
                 style={{ maxHeight: '250px' }}

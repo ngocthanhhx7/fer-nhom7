@@ -83,13 +83,9 @@ function Header() {
                     {user.name}
                   </Dropdown.Toggle>
                   <Dropdown.Menu>
-                    <Dropdown.Item as={Link} to="/product-manager">
-                      <Package size={16} className="me-2" />
-                      Product Manager
-                    </Dropdown.Item>
-                    <Dropdown.Item as={Link} to="/account-manager">
-                      <Users size={16} className="me-2" />
-                      Account Manager
+                    <Dropdown.Item as={Link} to="/profile">
+                      <User size={16} className="me-2" />
+                      Profile
                     </Dropdown.Item>
                     <Dropdown.Item as={Link} to="/change-password">
                       <Settings size={16} className="me-2" />

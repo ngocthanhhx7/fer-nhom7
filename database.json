@@ -5,21 +5,32 @@
       "name": "user",
       "email": "user@gmail.com",
       "password": "123123",
-      "createdAt": "2023-01-01T00:00:00.000Z"
+      "createdAt": "2023-01-01T00:00:00.000Z",
+      "role": "customer"
     },
     {
       "id": "1742672351092",
-      "name": "test",
+      "name": "admin",
       "email": "test@gmail.com",
       "password": "123123",
-      "createdAt": "2025-03-22T19:39:11.092Z"
+      "createdAt": "2025-03-22T19:39:11.092Z",
+      "role": "admin"
     },
     {
       "id": "1742781619374",
       "name": "Nguyen Ngoc Thanh",
       "email": "pemanhnam2k4@gmail.com",
       "password": "123456",
-      "createdAt": "2025-03-24T02:00:19.374Z"
+      "createdAt": "2025-03-24T02:00:19.374Z",
+      "role": "customer"
+    },
+    {
+      "id": "1752703671120",
+      "name": "Nguyen Ngoc Thanh",
+      "email": "nguyenngocthanhhx7@gmail.com",
+      "password": "123456",
+      "createdAt": "2025-07-16T22:07:51.120Z",
+      "role": "customer"
     }
   ],
   "products": [

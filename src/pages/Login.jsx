@@ -41,8 +41,12 @@ function Login() {
       const { password: _, ...userInfo } = user
       localStorage.setItem("user", JSON.stringify(userInfo))
 
-      // Redirect to homepage
-      navigate("/")
+      // Redirect based on role
+      if (user.role === "admin") {
+        navigate("/dashboard")
+      } else {
+        navigate("/")
+      }
       window.location.reload()
     } catch (error) {
       console.error("Login error:", error)
@@ -97,6 +101,11 @@ function Login() {
                   Don't have an account?{" "}
                   <Link to="/register" className="text-primary">
                     Register
+                  </Link>
+                </p>
+                <p className="mt-2">
+                  <Link to="/forgot-password" className="text-secondary">
+                    Forgot password?
                   </Link>
                 </p>
               </div>
